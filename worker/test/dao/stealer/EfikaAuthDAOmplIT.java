@@ -5,8 +5,8 @@
  */
 package dao.stealer;
 
-import dao.impl.auth.EfikaAuthDAOmpl;
-import dao.request.VerificarCredencialRequest;
+import br.net.gvt.efika.worker.dao.impl.auth.EfikaAuthDAOmpl;
+import br.net.gvt.efika.worker.request.VerificarCredencialRequest;
 import model.dto.input.AuthInput;
 import org.junit.After;
 import org.junit.AfterClass;

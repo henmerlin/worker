@@ -5,6 +5,7 @@
  */
 package dao.impl.queue;
 
+import br.net.gvt.efika.worker.dao.impl.queue.QueueDAOImpl;
 import model.dto.task.PendingTasksResponseDTO;
 import model.dto.task.QueueTaskDTO;
 import org.junit.After;

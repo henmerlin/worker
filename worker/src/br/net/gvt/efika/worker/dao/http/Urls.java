@@ -12,9 +12,11 @@ package br.net.gvt.efika.worker.dao.http;
 public enum Urls {
     //-10.40.195.81
     //-localhost
-    CUSTOMERAPI_CADASTRO("http://localhost:8080/customerAPI/customer/findByParameter"),
-    CUSTOMERAPI_CERTIFICATION("http://localhost:8080/customerAPI/certification/execByParam"),
-    CUSTOMERAPI_CONF_REDE("http://localhost:8080/customerAPI/certification/confRede"),
+    CUSTOMERAPI_CADASTRO("http://10.40.198.168:7171/customerAPI/customer/findByParameter"),
+    CUSTOMERAPI_CERTIFICATION("http://10.40.198.168:7171/customerAPI/certification/execByParam"),
+    CUSTOMERAPI_CONF_REDE("http://10.40.198.168:7171/customerAPI/certification/confRede"),
+    CUSTOMERAPI_ONTS_DISP("http://10.40.198.168:7171/customerAPI/certification/ontsDisp"),
+    CUSTOMERAPI_SET_ONT("http://10.40.198.168:7171/customerAPI/certification/setOntToOlt"),
 //    QUEUE_COMPLETE_TASK("http://ec2-54-233-253-253.sa-east-1.compute.amazonaws.com:8080/queueAPI/queue/completeTask"),
 //    QUEUE("http://ec2-54-233-253-253.sa-east-1.compute.amazonaws.com:8080/queueAPI/queue/"),
     QUEUE_COMPLETE_TASK("http://localhost:8080/queueAPI/queue/completeTask"),

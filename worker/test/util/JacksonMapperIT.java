@@ -5,6 +5,7 @@
  */
 package util;
 
+import br.net.gvt.efika.worker.util.JacksonMapper;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

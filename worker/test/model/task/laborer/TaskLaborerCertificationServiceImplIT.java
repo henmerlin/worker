@@ -5,13 +5,14 @@
  */
 package model.task.laborer;
 
+import br.net.gvt.efika.worker.model.task.laborer.TaskLaborerCertificationServiceImpl;
 import model.dto.task.QueueTaskDTO;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import util.JacksonMapper;
+import br.net.gvt.efika.worker.util.JacksonMapper;
 
 /**
  *

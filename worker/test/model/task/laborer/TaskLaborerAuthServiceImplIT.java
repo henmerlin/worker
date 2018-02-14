@@ -5,6 +5,7 @@
  */
 package model.task.laborer;
 
+import br.net.gvt.efika.worker.model.task.laborer.TaskLaborerAuthServiceImpl;
 import mock.QueueTaskMock;
 import model.dto.task.QueueTaskDTO;
 import org.junit.After;
@@ -39,7 +40,7 @@ public class TaskLaborerAuthServiceImplIT {
     @Test
     public void testExecutar() {
         System.out.println("executar");
-        TaskLaborerAuthServiceImpl1 instance = new TaskLaborerAuthServiceImpl1(QueueTaskMock.mock());
+        TaskLaborerAuthServiceImpl instance = new TaskLaborerAuthServiceImpl(QueueTaskMock.mock());
         QueueTaskDTO executar = instance.executar();
         System.out.println("end");
     }
