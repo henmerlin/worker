@@ -11,7 +11,7 @@ import br.net.gvt.efika.worker.model.entity.QueueTaskMirror;
 public class QueueDAOMirrorImpl extends AbstractMongoDAO<QueueTaskMirror> {
 
     public QueueDAOMirrorImpl() {
-        super("10.200.35.67", "worker", QueueTaskMirror.class);
+        super("10.40.197.137", "worker", QueueTaskMirror.class);
     }
 
 }
